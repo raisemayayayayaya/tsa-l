@@ -1,90 +1,53 @@
 #website
 <!DOCTYPE html>
 <html lang="en">
-   <table>
-  <thead>
-    <tr>
-      <th scope="col">Events</th>
-      <th scope="col">Number of Teams</th>
-      <th scope="col">In House</th>
-    </tr>
-  </thead>
-  <tbody
-   <head>
-        <style type="text/css">
-           thead th {
-  font-size: 2em;
-}
-           font-family:sans-serif
-           table {
-              border-collapse: collapse;
-              table-layout: fixed;
-           }
-           th, td {
-              border: 3px solid black;
-              text-align: center;
-              vertical-align: middle;
-              padding: 0;
-              height: 90px;
-              line-height: 90px;
-           }
-           thead th {
-              font-size: 2.5em;
-           }
-      table {
-  width: 90%;
-  margin: 0 auto;
-}
-     body {
-  margin: 0;
-        font-family:sans-serif
-}
-
-table {
-  width: 90%;
-  border: 4px outset black;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 4px solid black;
-  text-align: center;
-  padding: 6px;
-}
-
-th {
-  font-size: 1.4em;
-}
-
-tr:nth-child(even) {
-  background-color: #D3D3D3;
-}
-</style>
-   </head>
- 
 <head>
   <meta charset="UTF-8">
   <title>TSA Events</title>
+
   <style>
-    table {
-      border: 4px outset black;
-      border-collapse: collapse;
+    body {
+      margin: 0;
+      font-family: sans-serif;
     }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border: 4px solid black;
+    }
+
+    thead th {
+      font-size: 2em;
+      height: 90px;
+    }
+
     th, td {
       border: 4px solid black;
-      padding: 4px 4px;
-      text-align: center
+      text-align: center;
+      vertical-align: middle;
+      padding: 10px;
     }
-    .events {
-      color:blue;
-    }
+
     tr:nth-child(even) {
       background-color: #D3D3D3;
     }
   </style>
 </head>
+
 <body>
 
+<table>
+  <thead>
+    <tr>
+      <th>Events</th>
+      <th>Number of Teams</th>
+      <th>In House</th>
+    </tr>
+  </thead>
+
+<body>
 <table>
   <tr>
     <th scope="row">Animatronics</th>
