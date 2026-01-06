@@ -28,7 +28,6 @@
               height: 90px;
               line-height: 90px;
            }
-
            thead th {
               font-size: 2.5em;
            }
@@ -323,6 +322,5 @@ tr:nth-child(even) {
     <td>N/A</td>
   </tr>
 </table>
-
 </body>
 </html>
